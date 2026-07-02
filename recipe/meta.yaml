@@ -1,4 +1,4 @@
-{% set version = "30.2026.2600" %}
+{% set version = "30.2026.2700" %}
 {% set python_min = "3.11.0" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/lsst-resources/lsst_resources-{{ version }}.tar.gz
-  sha256: 7f40a92f89bb3f49a7a36476f1756b3d8965689a2c034d297e5001597760ef4e
+  sha256: f3789a325a3d6f56c0c056363d3a89b84c6b65e1ced11b35374ed64a7c9f44e5
 
 build:
   noarch: python
