@@ -1,4 +1,4 @@
-{% set version = "30.2026.3300" %}
+{% set version = "30.2026.3400" %}
 {% set python_min = "3.11.0" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/l/lsst-resources/lsst_resources-{{ version }}.tar.gz
-  sha256: 9c0549b232d896e84e078ea3ccec038b29d940c4917660ac36700256747e6483
+  sha256: 984efe914f0a4b5e62cca8928381bfc6863fac8b747f548824a2a491ad7c4874
 
 build:
   noarch: python
